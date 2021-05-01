@@ -1,0 +1,53 @@
+/* Smart Phones And Tablets */
+
+@media (max-width:768px) {
+    .navbar .links {
+        width: 100%;
+        text-align: center
+    }
+    .header .info h4 {
+        font-size: 25px
+    }
+    .header .info h2 {
+        margin: 5px 0 0;
+        font-size: 30px
+    }
+    .header .info p {
+        font-size: 20px
+    }
+    .about .info .cv li {
+        font-size: 15px
+    }
+    .about .info .cv li span {
+        width: initial
+    }
+    .footer .copyright span {
+        font-size: 15px
+    }
+}
+
+/* Small Screen */
+
+@media (min-width:769px) and (max-width:991px) {
+    .navbar .links {
+        width: 25%
+    }
+    .header .social li {
+        width: 50px;
+        height: 50px;
+        line-height: 50px
+    }
+}
+
+/* Medium Screen */
+
+@media (min-width:992px) and (max-width:1199px) {
+    .navbar .links {
+        width: 25%
+    }
+    .header .social li {
+        width: 50px;
+        height: 50px;
+        line-height: 50px
+    }
+}
